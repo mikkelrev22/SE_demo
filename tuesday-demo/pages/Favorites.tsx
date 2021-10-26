@@ -5,7 +5,7 @@ interface IFavoriteProps {
 }
 interface favoriteObject {
     name: string,
-    icon: CarbonIconType
+    icon: string
 }
 const FavoritesList: React.FunctionComponent<IFavoriteProps> = (props) => {
     const listFavorites = props.favorites.map((favorite, i)=>
